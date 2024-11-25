@@ -1,0 +1,25 @@
+
+
+body {
+    background-color: #03396c;
+}
+
+#grid-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    height: 35vw;
+    width: 35vw;
+}
+
+#grid-square {
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    border: 5px, solid, black;
+}
+
+#grid-sqaure:after {
+    padding-bottom: 100%;
+}

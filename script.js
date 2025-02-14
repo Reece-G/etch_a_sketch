@@ -34,7 +34,7 @@ function removeGrid(parent) {
     }
 }
 
-function hoverListener() {
+async function hoverListener() {
     const gridSquares = document.querySelectorAll("#grid-square")
     gridSquares.forEach(square => square.addEventListener('mouseenter', event => {
         let currentOpacity = event.target.style.opacity;
